@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Cairo:wght@200..1000&family=League+Spartan:wght@100..900&display=swap');
+
+html{
+  direction: rtl; 
+  /* عشان الموقع بتاعي هيكون عربي */
+}
+
+*{
+  padding: 0;
+  margin:0;
+  font-family: "Amiri", serif;
+
+}
+
+section{
+  background: url(assets/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+section .container{
+  width: 650px;
+  background: #332a224e;
+  padding: 30px 25px;
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid #d7d7d74e;
+  margin-right: 15%;
+}
+
+section .top_section{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #d7d7d74e;
+}
+
+section .top_section select{
+  width: 250px;
+  border-radius: 5px;
+  outline: none;
+  background: #a54f3a;
+  padding: 2px 10px;
+  color: #fff;
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+section .top_section h3{
+  font-size: 26px;
+  color: #fff;
+}
+
+section .top_section .data{
+  width: 250px;
+}
+
+section .top_section .data h4{
+  font-size: 26px;
+  color: #fff;
+}
+
+section .prayer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 25px;
+  background-color: #c0583e75;
+  margin-bottom: 25px;
+  color: #fff;
+  font-size: 26px;
+  border-radius: 5px;
+  border: 1px solid #c0583e75;
+}
