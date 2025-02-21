@@ -1,8 +1,24 @@
-# React + Vite
+# 🕌 Prayer Times App  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Overview  
+This is a **React.js** application that displays **prayer times for different cities**. It fetches real-time data from an API and presents it in a clean, user-friendly interface.  
 
-Currently, two official plugins are available:
+## 🎯 Features  
+✅ View accurate prayer times for different cities  
+✅ Interactive and responsive UI with **React.js & CSS**  
+✅ API integration for real-time data updates  
+✅ Smooth user experience with optimized state management  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Tech Stack  
+- **React.js** - Component-based UI  
+- **CSS** - Responsive and modern styling  
+- **API Integration** - Fetching real-time prayer times  
+- **State Management** - Efficient data handling  
+
+## 🏗️ Installation & Setup  
+To run the project locally, follow these steps:  
+
+1. **Clone the repository**  
+   ```sh
+   git clone [your-github-repo-link]
+   cd prayer-times-app
