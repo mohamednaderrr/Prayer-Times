@@ -22,7 +22,7 @@ function App() {
 useEffect(()=>{
   const fetchPrayerTimes =async()=>{
     try{
-      const response = await fetch(`https://api.aladhan.com/v1/timingsByCity/22-02-2025?city=Eg&country=${city}`)
+      const response = await fetch(`https://api.aladhan.com/v1/timingsByCity/23-02-2025?city=Eg&country=${city}`)
       const data_Prayer = await response.json()
 
       setPrayerTimes(data_Prayer.data.timings)  // set the fetched data to the state variable prayerTimes  // to access the data in the Prayer component, you can use the prayerTimes state variable.  // for example prayerTimes.timings.Fajr  to get fajr prayer time in the Prayer component.  // this is just an example, you can customize the component to display the prayer times as per your requirements.
